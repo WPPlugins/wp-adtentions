@@ -1,0 +1,241 @@
+/*Element Iframe*/
+
+#wp-link-target, .hide-postbox-tog, .hide-column-tog, .columns-prefs-1 > input[type="radio"], .columns-prefs-2 > input[type="radio"] {
+display: inline-block !important;
+}
+
+#elementiframe, #adttrigiframe, #animiframe, #adttrighviframe, #adtanimhviframe, #adtanimsthviframe {
+	display: none;
+	background: #dddddd;
+	position: fixed;
+	z-index: 999991;
+	top: 0;
+	left:0;
+	bottom: 0;
+	right: 0;
+	margin: auto;
+}
+#showidhoverclick, #animidhoverclick, #animstphoverclick {
+margin-left: 0; 
+}
+#frontend_iframe, #adttrig_iframe, #anim_iframe {
+height:100%;
+width:100%;
+}
+
+#selectortools {
+	display: none;
+	background: #000000;
+	position: fixed;
+	z-index: 999992;
+	top: 0;
+	left:0;
+	right: 0;
+	margin: 0 auto;
+	height:5%;
+	padding: 5px 10px;
+	margin-bottom: 5px;
+box-shadow: 0 2px 5px #606060;
+}
+
+#adtpredefinedposmargin, #adtpredefinedpos {
+	/* float: left; */
+}
+
+#adtpredefinedpos {
+	margin-right: 25px;
+}
+#adtpredefinedposmargin {
+	width: 100%;
+}
+
+.atclose, .toolcontainer, .atminimize {
+padding: 5px;
+margin-right: 10px;
+color: #ffffff;
+font-weight: bold;
+}
+
+.toolcontainer {
+float: left;
+}
+
+.atclose, .atminimize {
+float: right;
+cursor: pointer;
+}
+
+/* #dhthiselemonly {
+display: none;
+} */
+
+#dhselectelement {
+	font-size: 12px;
+	height: initial;
+	line-height: 0;
+	padding: 0;
+	width: 100px;
+}
+/* . {
+margin-right: initial;
+margin-right: 5px;
+} */
+/*end Element Iframe*/
+
+.postbox {
+background: #BF300F;
+border: 0;
+}
+
+.data-control b, #elements_box b, #designs_box b, #adt_displaycontrol b, #elements_box h2, #designs_box h2, #adt_displaycontrol h2, .postbox h3, .data-control-content {
+color: #ffffff;
+}
+
+.data-control-content-children b, .data-control-content-children-inner b, #settings_box > .inside h3{
+color: #000000 !important;
+}
+
+input[type="text"]{
+border-radius: 5px; 
+background: #0396DB;
+}
+
+#title {
+color: #000000;
+}
+
+.adtagrbbrcolor {
+background: initial;
+color: initial;
+}
+
+input[type="checkbox"], input[type="radio"] {
+display: none;
+}
+#cb > input[type="checkbox"], .check-column > input[type="checkbox"], #cb > input[type="radio"], .check-column > input[type="radio"]{
+display: initial;
+}
+
+input[type="checkbox"]+label, .specify_ptypes, #txtarreload , input[type="radio"]+label, .functionname {
+background: #FF5104;
+border-radius: 3px;
+color: #ffffff !important;
+font-size: 11px;
+display: inline-block !important;
+margin: 1px auto;
+box-shadow: 0 0 1px #ffffff;	
+}
+#txtarreload {
+margin-right: 10px;
+
+}
+
+#userselectedinfolabel {
+padding:5px;
+}
+
+input[type="checkbox"]+label, #txtarreload, input[type="radio"]+label  {
+padding: 0 5px 1px;
+}
+
+#adturlbox > label {
+margin: 5px 5px 0;
+}
+
+.specify_ptypes {
+padding: 0 5px;
+}
+
+.independent_items+label {
+margin: 3px auto;
+}
+
+.functionname {
+background: #000000;
+display: inline-block;
+font-weight: bold;
+padding: 6.5px;
+}
+
+input[type="checkbox"]:checked+label, input[type="radio"]:checked+label {
+/* background: #228F04; */
+background: #02854F;
+}
+
+.plus_minus {
+border-right: 1px solid #ffffff;
+}
+
+.ptype_epschkbox{
+display: inline-block !important;
+}
+
+.tax_epschkbox{
+display: inline-block !important;
+}
+
+.tax_parentsli > label, .ptype_nameli > label {
+background: #000000 !important;
+}
+
+.csspropcontainer > input[type="checkbox"]+label, .row_container > input[type="checkbox"]+label, input[type="radio"]+label , .toolcontainer > input[type="checkbox"]+label {
+  padding: 5px !important;
+}
+
+.span-button {
+cursor: pointer;
+color: #ffffff;
+background: #000000;
+display: inline-block;
+font-weight: bold;
+padding: 5px;
+margin-left: 10px;
+}
+
+.framehome {
+cursor: pointer;
+color: #ffffff !important;
+display: block;
+margin: 10px;
+float: left;
+}
+
+.visit-item {
+display: inline-block;
+margin: 0 auto -5px 5px;
+width: 16px;
+height: 16px;
+background: #EBEBED url("img/click.png") no-repeat center center;
+}
+
+#poststuff h3 {
+background: none repeat scroll 0 0 #B12302;
+}
+
+.accordion-section-title:after, .handlediv, .item-edit, .sidebar-name-arrow, .widget-action {
+  color: #FFC600;
+}
+
+.ui-slider-horizontal {
+	background: none repeat scroll 0 0 #FF9000;
+	border: 1px solid #ffffff;
+}
+.ui-slider .ui-slider-handle {
+	background: #000000;
+	border: 1px solid #ffffff;
+}
+input[type="checkbox"]+.adt_bigger, input[type="radio"]+.adt_bigger {
+font-size:16px;
+font-weight: bold;
+margin: 0 10px 0 0;
+border: 1px solid #000000;
+}
+.adhvclick {
+margin: 10px 0 0;
+}
+input[type="checkbox"]+.adt_normal, input[type="radio"]+.adt_normal {
+margin: 0 0 3px 0;
+font-weight: bold;
+border: 1px solid #000000;
+padding: 3px;
+}

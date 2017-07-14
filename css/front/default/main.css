@@ -1,0 +1,26 @@
+.noneImportant {
+display: none !important;
+}
+
+.clear {
+clear: both;
+}
+
+.edit_adt {
+position: absolute;
+display: none;
+color: #ffffff !important;
+background: #000000;
+padding: 0 3px;
+font-size: 12px !important;
+font-family: Arial !important;
+font-weight: initial !important;
+}
+
+.edit_adt > a {
+color: #ffffff !important;
+font-size: 12px !important;
+font-family: Arial !important;
+font-weight: initial !important;
+margin: initial !important;
+}

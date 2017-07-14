@@ -1,0 +1,105 @@
+/*!
+ * jQuery Accordion 0.0.1
+ * (c) 2014 Victor Fernandez <victor@vctrfrnndz.com>
+ * MIT Licensed.
+ */
+
+/* Requirements */
+
+[data-accordion] [data-content] {
+    overflow: hidden;
+    max-height: 0;
+}
+
+/* Basic Theme */
+
+[data-accordion] {
+    line-height: 1;
+}
+
+[data-control],
+[data-content] > * {
+    /* border-bottom: 1px solid #888; */
+    padding: 10px;
+	margin-bottom: 2px;
+}
+
+[data-content] [data-accordion] {
+    border: 0;
+    padding: 0;
+}
+
+[data-accordion] [data-control] {
+    position: relative;
+    padding-right: 40px;
+}
+
+[data-accordion] > [data-control]:after {
+    content: "";
+    position: absolute;
+    right: 10px;
+    top: 12px;
+    font-size: 25px;
+    font-weight: 200;
+    color: #444;
+    height: 15px;
+    width: 24px;
+    background: url('images/down.png') center center no-repeat;
+    background-size: 50%;
+}
+
+[data-accordion].open > [data-control]:after {
+    -webkit-transform: rotate(-180deg); 
+    -ms-transform: rotate(-180deg); 
+    transform: rotate(-180deg); 
+}
+
+.data-control {
+background: #000000;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	-moz-box-shadow: 0 2px 2px #888888;	
+	-webkit-box-shadow: 0 2px 2px #888888;	
+	box-shadow: 0 2px 2px #000000;	
+}
+
+.data-control-content {
+background: #FF5104;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	-moz-box-shadow: 0 3px 5px #ffffff;
+	-webkit-box-shadow: 0 3px 5px #ffffff;
+	box-shadow: 0 3px 5px #ffffff;		
+	border: 1px solid #dddddd;
+}
+
+.data-control-content > .data-control-content {
+background: #000000;
+color: #ffffff;
+}
+
+.data-control-content-children {
+background: #FF9000;
+/* 	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px; */
+	-moz-box-shadow: 0 1px 1px #ffffff;
+	-webkit-box-shadow: 0 1px 1px #ffffff;
+	box-shadow: 0 1px 1px #ffffff;		
+	/* border: 1px solid #888; */
+}
+
+.data-control-content-children-inner {
+	background: #60AA00;
+	color: #000000;
+}
+
+.data-control, .data-control-content, .data-control-content-children, .data-control-content-children-inner {
+	cursor: pointer;
+}
+
+.row_container {
+padding:5px 5px 15px 5px;
+}

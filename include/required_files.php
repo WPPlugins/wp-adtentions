@@ -1,0 +1,21 @@
+<?php
+require_once( ABSPATH . 'wp-admin/includes/plugin.php' );
+require_once("cfg.php");
+require_once('class.styleedit.php');
+require_once("cookies.php");
+require_once("adtentionsbase.php");
+require_once("controls/adtsettingbox.php");
+require_once("controls/adtelementsbox.php");
+require_once("controls/adtdesignsbox.php");
+require_once("controls/adtdisplaycontrol.php");
+require_once("controls/go-pro.php");
+require_once("save/adtsave.php");
+require_once("save/adtsavedisadplacement.php");
+require_once("save/adtsaveshowhidetrigger.php");
+require_once("save/adtsaveanimationwa.php");
+require_once("display/hooks.php");
+require_once("adds/tracking.php");
+require_once("adds/tracker.php");
+require_once("adds/help.php");
+require_once("adtenqscriptstyle.php");
+?>

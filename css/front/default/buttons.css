@@ -1,0 +1,50 @@
+.adt_closeminimize {
+font-size: 0 !important;
+line-height: 0 !important;
+position: absolute;
+text-align: right;
+z-index:2147483642;
+}
+
+.adt_clsbtn {
+margin-left: 3px;
+}
+
+.adt_animebtn > img {
+  border: 0 none;
+  height: auto;
+  max-width: 100%;
+}
+
+.adt_clsbtn, .adt_animebtn {
+-ms-filter:'progid:DXImageTransform.Microsoft.Alpha(Opacity=50)'; filter: alpha(opacity=50); -moz-opacity:0.5; -khtml-opacity: 0.5; opacity: .5;
+display: inline-block;
+font-family: Arial;
+font-weight: bold;
+text-align: center;
+/* background: #dddddd; */
+font-size: 0 !important;
+line-height: 0 !important;
+cursor: pointer;
+position: relative;
+z-index:2147483642;
+}
+.adt_clsbtn:hover, .adt_animebtn:hover {
+-ms-filter:'progid:DXImageTransform.Microsoft.Alpha(Opacity=100)'; filter: alpha(opacity=100); -moz-opacity:1; -khtml-opacity: 1; opacity: 1;
+}
+.adt_animebtn {
+  display: none;
+}
+.wait_ajaxprocess_wrapper {
+display: none;
+}
+.wait_ajax_process {
+display: block !important;
+position: absolute !important;
+top: 0 !important;
+left: 0 !important;
+right: 0 !important;
+bottom: 0 !important;
+margin: auto !important;
+z-index: 2147483642;
+}
